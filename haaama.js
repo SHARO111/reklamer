@@ -20,11 +20,11 @@ if(vex.content.includes("discord.gg")){
 
 if(vex.channel.type === "dm"){ 
 if(vex.author.id===client.user.id) return; 
-vex.author.send("https://discord.gg/VWuQfQfjc9")
+vex.author.send("https://discord.gg/ffKunEZ5")
 let s2 = vex .content = vex.content.replace(/@(everyone)/, "🥰").replace(/@(here)/, "🥰");
-let hama1 = client.channels.cache.get("851359393731051550")//id bashe reklam
+let hama1 = client.channels.cache.get("850495981262864455")//id bashe reklam
 hama1.send(`
-ناردرا لە لایەن
+
 <@${vex.author.id}> ` +`
 سێرڤەرەکە
 ${s2}
@@ -40,7 +40,7 @@ ${s2}
   
 })
 
-const channelid = "849787552310493194"    //id channele vc
+const channelid = "850495986770247720"   //id channele vc
 client.on("ready", () => {
     const channel = client.channels.cache.get(channelid);
     if (!channel) return console.error("The channel does not exist!");
@@ -52,4 +52,4 @@ client.on("ready", () => {
 });
 
 
-client.login("ODM4MjM1MjcxMjEyNDMzNDE5.YI4Jbg.NoHaa-xFUL9gvManpEMZ1M9VC1M")
+client.login("ODUyNjQ5NDkzNDcxMjk3NTQ1.YMJ5uA.95isZ3sYycrT9p3xEWZzstTeC4k")
